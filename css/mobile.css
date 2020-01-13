@@ -1,0 +1,75 @@
+@media screen and (max-width:360px) {
+    
+    /* Make columns auto width */
+    #content,#colContent, #articles ,#sidebar,#colSidebar,#footer {
+        width: auto;
+    }
+    #colContent,#colSidebar{
+        padding : 20px 0px 0px;
+    }
+
+    /*H2 Tags - must get a green underline*/
+    h2 {
+        border-bottom: 2px solid green;
+        font-size: 2.4sem;
+        margin-right: 10px;
+    }
+
+    /* Navigation menu display block */
+    #menu li {
+        display: block;
+        float: left;
+        padding: 0px;
+        margin: auto;
+        width: 360px;
+        background: #484e22;
+        border-bottom: 1.5px dotted;
+    }
+
+
+
+
+    /* Change header text to bold and uppercase */
+    /* change background size to 100px*/
+    #header {
+        font-weight: bold;
+        text-transform: lowercase;
+        background-size: 360px 100px;
+        width: 360px;
+        height: 100px;
+    }
+
+    #header h1 {
+        font-size: 2.75em;
+        padding: 50px 0 0 10px;
+    }
+
+    /*left side banner add disappears*/
+    #colAd {
+        display: none;
+    }
+
+    /*footer text size must be increased for easier readability*/
+    #footer p {
+        font-size: 15px;
+    }
+
+    
+
+    #menu a {
+
+        height: 15px;
+        padding: 3px 20px 3px 4px;
+    }
+
+    #menu a:hover,
+    #menu .active a {
+        background: none;
+        color: #FFF;
+    }
+
+    a:link {
+        border-bottom: none;
+    }
+
+}
